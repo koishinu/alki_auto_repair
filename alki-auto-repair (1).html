@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alki Auto Repair | West Seattle's Trusted Mechanic Since 1918</title>
+<meta name="description" content="Family-owned, environment-friendly auto repair in West Seattle since 1918. ASE Master Certified technicians. Oil changes, brakes, tires, diagnostics & more. Call (206) 935-8059.">
+<meta name="keywords" content="auto repair West Seattle, mechanic West Seattle, oil change West Seattle, brakes, tires, emissions repair, ASE certified mechanic">
+<link rel="canonical" href="https://www.alkiautorepair.com/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Alki Auto Repair | West Seattle's Trusted Mechanic Since 1918">
+<meta property="og:description" content="Family-owned, environment-friendly full-service auto repair in West Seattle. ASE Master Certified. 5-Star EnviroStars rated.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.alkiautorepair.com/">
+
+<!-- Local business structured data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Alki Auto Repair",
+  "image": "",
+  "telephone": "+1-206-935-8059",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2938 SW Avalon Way",
+    "addressLocality": "Seattle",
+    "addressRegion": "WA",
+    "postalCode": "98126",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "07:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "08:00",
+      "closes": "16:00"
+    }
+  ],
+  "foundingDate": "1918",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "120"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --navy:#1B2A38;
+    --navy-deep:#0F1722;
+    --cream:#F6F1E6;
+    --cream-dim:#EBE3D2;
+    --rust:#C8602F;
+    --rust-dark:#A84A21;
+    --moss:#3F5A42;
+    --line:#D8CDB6;
+    --max:1180px;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    background:var(--cream);
+    color:var(--navy-deep);
+    font-family:'Source Sans 3', sans-serif;
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3,.eyebrow,.badge-num{
+    font-family:'Oswald', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:0.02em;
+  }
+
+  a{color:inherit;}
+
+  img{max-width:100%;display:block;}
+
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 28px;
+  }
+
+  /* Skip link */
+  .skip-link{
+    position:absolute;
+    left:-999px;
+    top:0;
+    background:var(--rust);
+    color:#fff;
+    padding:10px 18px;
+    z-index:999;
+  }
+  .skip-link:focus{left:12px; top:12px;}
+
+  /* ---------- Topbar ---------- */
+  .topbar{
+    background:var(--navy-deep);
+    color:var(--cream-dim);
+    font-size:14px;
+  }
+  .topbar .wrap{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:8px;
+    padding-bottom:8px;
+    flex-wrap:wrap;
+    gap:6px;
+  }
+  .topbar a.tel{
+    color:var(--cream);
+    font-weight:600;
+    text-decoration:none;
+  }
+  .topbar a.tel:hover{color:var(--rust);}
+  .topbar .loc{opacity:0.8;}
+
+  /* ---------- Header / Nav ---------- */
+  header.site{
+    background:var(--navy);
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 2px 14px rgba(0,0,0,0.18);
+  }
+  nav.main{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 0;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+    color:var(--cream);
+  }
+  .brand-mark{
+    width:42px;height:42px;flex-shrink:0;
+  }
+  .brand-text{
+    font-family:'Oswald', sans-serif;
+    font-size:21px;
+    font-weight:600;
+    letter-spacing:0.03em;
+    line-height:1.1;
+  }
+  .brand-text span{
+    display:block;
+    font-size:10.5px;
+    font-weight:400;
+    letter-spacing:0.14em;
+    color:var(--rust);
+    margin-top:2px;
+  }
+
+  .nav-links{
+    display:flex;
+    align-items:center;
+    gap:34px;
+    list-style:none;
+  }
+  .nav-links a{
+    color:var(--cream-dim);
+    text-decoration:none;
+    font-family:'Oswald', sans-serif;
+    font-size:14.5px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    position:relative;
+    padding-bottom:4px;
+    transition:color 0.2s ease;
+  }
+  .nav-links a:hover{color:var(--cream);}
+  .nav-links a::after{
+    content:"";
+    position:absolute;
+    left:0; bottom:0;
+    width:0; height:2px;
+    background:var(--rust);
+    transition:width 0.25s ease;
+  }
+  .nav-links a:hover::after{width:100%;}
+
+  .nav-cta{
+    background:var(--rust);
+    color:#fff !important;
+    padding:10px 20px;
+    border-radius:3px;
+    font-weight:600;
+    text-transform:none !important;
+  }
+  .nav-cta::after{display:none;}
+  .nav-cta:hover{background:var(--rust-dark); color:#fff !important;}
+
+  .menu-toggle{
+    display:none;
+    background:none;
+    border:0;
+    color:var(--cream);
+    font-size:26px;
+    cursor:pointer;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      radial-gradient(ellipse at 80% -10%, rgba(200,96,47,0.18), transparent 55%),
+      var(--navy);
+    color:var(--cream);
+    overflow:hidden;
+    position:relative;
+  }
+  .hero .wrap{
+    display:grid;
+    grid-template-columns:1.05fr 0.95fr;
+    gap:40px;
+    align-items:center;
+    padding-top:76px;
+    padding-bottom:64px;
+    min-height:560px;
+  }
+  .hero-eyebrow{
+    color:var(--rust);
+    font-size:13.5px;
+    letter-spacing:0.18em;
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .hero-eyebrow::before{
+    content:"";
+    width:30px;height:1px;
+    background:var(--rust);
+  }
+  .hero h1{
+    font-size:clamp(2.5rem, 5vw, 3.6rem);
+    line-height:1.05;
+    font-weight:700;
+    margin-bottom:22px;
+    max-width:11ch;
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--rust);
+  }
+  .hero p.lead{
+    font-family:'Source Sans 3', sans-serif;
+    text-transform:none;
+    font-size:18px;
+    color:#CFD8DF;
+    max-width:46ch;
+    margin-bottom:32px;
+  }
+  .hero-ctas{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 26px;
+    border-radius:3px;
+    font-family:'Oswald', sans-serif;
+    text-transform:uppercase;
+    font-size:14.5px;
+    letter-spacing:0.04em;
+    text-decoration:none;
+    font-weight:600;
+    transition:transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  }
+  .btn-primary{
+    background:var(--rust);
+    color:#fff;
+  }
+  .btn-primary:hover{
+    background:var(--rust-dark);
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(200,96,47,0.35);
+  }
+  .btn-ghost{
+    background:transparent;
+    color:var(--cream);
+    border:1.5px solid rgba(246,241,230,0.35);
+  }
+  .btn-ghost:hover{
+    border-color:var(--cream);
+    transform:translateY(-2px);
+  }
+
+  .hero-since{
+    display:flex;
+    align-items:center;
+    gap:16px;
+  }
+  .since-badge{
+    width:72px;height:72px;
+    border:1.5px solid var(--rust);
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .since-badge .yr{
+    font-family:'Oswald', sans-serif;
+    font-size:18px;
+    font-weight:700;
+    color:var(--cream);
+    line-height:1;
+  }
+  .since-badge .lbl{
+    font-size:8.5px;
+    letter-spacing:0.1em;
+    color:var(--rust);
+    margin-top:3px;
+  }
+  .hero-since p{
+    font-size:14px;
+    color:#A9B4BD;
+    max-width:30ch;
+  }
+
+  /* Hero illustration */
+  .hero-art{
+    position:relative;
+  }
+  .hero-art svg{
+    width:100%;
+    height:auto;
+    overflow:visible;
+  }
+
+  /* Gauge needle sweeps from red zone up to the healthy green zone on load */
+  .gauge-needle{
+    transform-origin:230px 250px;
+    transform:rotate(-58deg);
+    animation:needle-sweep 1.8s cubic-bezier(.22,1,.36,1) forwards 0.4s;
+  }
+  @keyframes needle-sweep{
+    0%{transform:rotate(-58deg);}
+    100%{transform:rotate(28deg);}
+  }
+
+  .gauge-arc-fill{
+    stroke-dasharray:402;
+    stroke-dashoffset:402;
+    animation:arc-fill 1.8s cubic-bezier(.22,1,.36,1) forwards 0.4s;
+  }
+  @keyframes arc-fill{
+    to{stroke-dashoffset:94;}
+  }
+
+  .tick-pulse{
+    animation:tick-glow 2.4s ease-in-out infinite;
+  }
+  .tick-pulse:nth-child(2){animation-delay:0.2s;}
+  .tick-pulse:nth-child(3){animation-delay:0.4s;}
+  @keyframes tick-glow{
+    0%,100%{opacity:0.5;}
+    50%{opacity:1;}
+  }
+
+  /* Floating tool icons drift gently */
+  .float-icon{
+    animation:float 4.5s ease-in-out infinite;
+  }
+  .float-icon.f2{animation-delay:0.8s;}
+  .float-icon.f3{animation-delay:1.6s;}
+  @keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-8px);}
+  }
+
+  /* ---------- Trust strip ---------- */
+  .trust-strip{
+    background:var(--cream-dim);
+    border-bottom:1px solid var(--line);
+  }
+  .trust-strip .wrap{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:0;
+  }
+  .trust-item{
+    padding:26px 18px;
+    text-align:center;
+    border-left:1px solid var(--line);
+  }
+  .trust-item:first-child{border-left:0;}
+  .trust-item .num{
+    font-family:'Oswald', sans-serif;
+    font-size:30px;
+    font-weight:700;
+    color:var(--rust);
+    line-height:1;
+  }
+  .trust-item .cap{
+    font-size:13px;
+    color:#5b5747;
+    margin-top:6px;
+    letter-spacing:0.02em;
+  }
+
+  /* ---------- Section shared ---------- */
+  section{padding:90px 0;}
+  .section-head{
+    max-width:640px;
+    margin-bottom:50px;
+  }
+  .eyebrow{
+    color:var(--rust);
+    font-size:13px;
+    letter-spacing:0.16em;
+    margin-bottom:12px;
+  }
+  .section-head h2{
+    font-size:clamp(1.9rem, 3.4vw, 2.6rem);
+    color:var(--navy-deep);
+    line-height:1.12;
+  }
+  .section-head p{
+    margin-top:16px;
+    color:#5b5747;
+    font-size:16.5px;
+    max-width:54ch;
+  }
+
+  /* ---------- Services ---------- */
+  .services{background:var(--cream);}
+  .service-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .service-card{
+    background:var(--cream);
+    padding:32px 28px;
+    transition:background 0.2s ease;
+  }
+  .service-card:hover{background:#fff;}
+  .service-card .icon{
+    width:38px;height:38px;
+    color:var(--rust);
+    margin-bottom:18px;
+  }
+  .service-card h3{
+    font-size:18px;
+    font-weight:600;
+    color:var(--navy-deep);
+    margin-bottom:8px;
+    text-transform:none;
+    letter-spacing:0;
+  }
+  .service-card p{
+    font-size:14.5px;
+    color:#6b6757;
+  }
+
+  .services-more{
+    margin-top:28px;
+    text-align:center;
+    color:#5b5747;
+    font-size:15px;
+  }
+  .services-more a{
+    color:var(--rust);
+    font-weight:600;
+    text-decoration:underline;
+  }
+
+  /* ---------- About / Accolades ---------- */
+  .about{
+    background:var(--navy);
+    color:var(--cream-dim);
+  }
+  .about .section-head h2{color:var(--cream);}
+  .about .section-head p{color:#A9B4BD;}
+  .about .eyebrow{color:var(--rust);}
+
+  .about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:start;
+  }
+  .about-copy p{
+    margin-bottom:18px;
+    color:#C2CAD1;
+    font-size:16px;
+  }
+  .about-copy strong{color:var(--cream);}
+
+  .accolades{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+  .accolade{
+    display:flex;
+    gap:18px;
+    align-items:flex-start;
+    padding:22px;
+    border:1px solid rgba(246,241,230,0.14);
+    border-radius:4px;
+    background:rgba(246,241,230,0.03);
+  }
+  .accolade .mark{
+    width:30px;height:30px;
+    color:var(--rust);
+    flex-shrink:0;
+    margin-top:2px;
+  }
+  .accolade h3{
+    font-size:15.5px;
+    color:var(--cream);
+    text-transform:none;
+    letter-spacing:0;
+    margin-bottom:6px;
+  }
+  .accolade p{
+    font-size:14px;
+    color:#A9B4BD;
+  }
+
+  /* ---------- Reviews ---------- */
+  .reviews{background:var(--cream-dim);}
+  .review-track{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+  }
+  .review-card{
+    background:var(--cream);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:26px;
+  }
+  .stars{
+    color:var(--rust);
+    font-size:14px;
+    letter-spacing:2px;
+    margin-bottom:14px;
+  }
+  .review-card p{
+    font-size:15px;
+    color:#3a372b;
+    margin-bottom:18px;
+  }
+  .reviewer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:13.5px;
+    color:#7a7666;
+    border-top:1px solid var(--line);
+    padding-top:14px;
+  }
+  .reviewer .name{font-weight:600; color:var(--navy-deep);}
+
+  /* ---------- CTA band ---------- */
+  .cta-band{
+    background:var(--rust);
+    color:#fff;
+    text-align:center;
+    padding:70px 0;
+  }
+  .cta-band h2{
+    font-size:clamp(1.8rem,3.6vw,2.4rem);
+    margin-bottom:14px;
+    color:#fff;
+  }
+  .cta-band p{
+    color:rgba(255,255,255,0.88);
+    margin-bottom:30px;
+    font-size:16.5px;
+  }
+  .cta-band .btn-primary{
+    background:var(--navy-deep);
+  }
+  .cta-band .btn-primary:hover{
+    background:#000;
+  }
+  .cta-band .btn-ghost{
+    border-color:rgba(255,255,255,0.5);
+  }
+  .cta-band .btn-ghost:hover{border-color:#fff;}
+
+  /* ---------- Contact / Footer ---------- */
+  footer.site{
+    background:var(--navy-deep);
+    color:#A9B4BD;
+    padding-top:70px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.2fr 1fr 1fr;
+    gap:50px;
+    padding-bottom:50px;
+    border-bottom:1px solid rgba(246,241,230,0.1);
+  }
+  .footer-grid h3{
+    color:var(--cream);
+    font-size:14.5px;
+    letter-spacing:0.08em;
+    margin-bottom:18px;
+  }
+  .footer-brand .brand-text{color:var(--cream);}
+  .footer-brand p{
+    margin-top:16px;
+    font-size:14.5px;
+    line-height:1.7;
+    max-width:38ch;
+  }
+  .footer-list{list-style:none; font-size:14.5px;}
+  .footer-list li{margin-bottom:10px;}
+  .footer-list a{text-decoration:none; transition:color 0.2s ease;}
+  .footer-list a:hover{color:var(--rust);}
+  .hours-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:14.5px;
+    margin-bottom:8px;
+    max-width:240px;
+  }
+  .hours-row span:last-child{color:var(--cream-dim);}
+
+  .map-frame{
+    margin-top:18px;
+    border-radius:4px;
+    overflow:hidden;
+    border:1px solid rgba(246,241,230,0.12);
+  }
+  .map-frame iframe{width:100%; height:160px; border:0; display:block;}
+
+  .footer-bottom{
+    padding:22px 0;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    font-size:13px;
+    color:#6b7480;
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  .reveal{
+    opacity:0;
+    transform:translateY(24px);
+    transition:opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.shown{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+  /* ---------- Focus visibility ---------- */
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--rust);
+    outline-offset:3px;
+  }
+
+  /* ---------- Reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .gauge-needle{animation:none; transform:rotate(28deg);}
+    .gauge-arc-fill{animation:none; stroke-dashoffset:94;}
+    .tick-pulse{animation:none; opacity:1;}
+    .float-icon{animation:none;}
+    .reveal{opacity:1; transform:none; transition:none;}
+    .btn-primary:hover, .btn-ghost:hover{transform:none;}
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 980px){
+    .hero .wrap{grid-template-columns:1fr; padding-top:48px;}
+    .hero-art{order:-1; max-width:380px; margin:0 auto 20px;}
+    .trust-strip .wrap{grid-template-columns:repeat(2,1fr); row-gap:18px;}
+    .trust-item:nth-child(3){border-left:0;}
+    .service-grid{grid-template-columns:repeat(2,1fr);}
+    .about-grid{grid-template-columns:1fr; gap:40px;}
+    .review-track{grid-template-columns:1fr; gap:18px;}
+    .footer-grid{grid-template-columns:1fr; gap:36px;}
+  }
+
+  @media (max-width: 720px){
+    .nav-links{
+      position:fixed;
+      top:73px; left:0; right:0;
+      background:var(--navy);
+      flex-direction:column;
+      align-items:flex-start;
+      padding:20px 28px 28px;
+      gap:18px;
+      transform:translateY(-130%);
+      transition:transform 0.3s ease;
+      box-shadow:0 10px 20px rgba(0,0,0,0.2);
+    }
+    .nav-links.open{transform:translateY(0);}
+    .nav-cta{margin-top:6px;}
+    .menu-toggle{display:block;}
+    .service-grid{grid-template-columns:1fr;}
+    .topbar .wrap{justify-content:center; text-align:center;}
+  }
+
+  @media (max-width:480px){
+    section{padding:64px 0;}
+    .trust-strip .wrap{grid-template-columns:1fr 1fr;}
+  }
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="loc">2938 SW Avalon Way, West Seattle, WA 98126</span>
+    <a class="tel" href="tel:+12069358059">(206) 935-8059</a>
+  </div>
+</div>
+
+<header class="site">
+  <nav class="main wrap" aria-label="Primary">
+    <a href="#main" class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" stroke="#C8602F" stroke-width="2"/>
+        <path d="M11 28L14 19H22L25 28" stroke="#F6F1E6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="16" cy="29" r="3" stroke="#F6F1E6" stroke-width="2"/>
+        <circle cx="24" cy="29" r="3" stroke="#F6F1E6" stroke-width="2"/>
+        <path d="M30 21L33 18M33 18L37 22M33 18V30" stroke="#C8602F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="brand-text">Alki Auto Repair<span>West Seattle · Est. 1918</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:+12069358059" class="nav-cta">Call Now</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">West Seattle's mechanic since 1918</p>
+        <h1>Honest car care that's <em>built to last.</em></h1>
+        <p class="lead">Three generations of West Seattle drivers have trusted Alki Auto for oil changes, brakes, tires, and diagnostics — done right the first time, by ASE Master Certified techs.</p>
+        <div class="hero-ctas">
+          <a href="tel:+12069358059" class="btn btn-primary">
+            Call (206) 935-8059
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get Directions</a>
+        </div>
+        <div class="hero-since">
+          <div class="since-badge">
+            <span class="yr">1918</span>
+            <span class="lbl">SINCE</span>
+          </div>
+          <p>Originally Turner Shell &amp; Service, on the original Alki Beach boardwalk.</p>
+        </div>
+      </div>
+
+      <div class="hero-art" id="heroArt">
+        <svg viewBox="0 0 460 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="arcGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#A84A21"/>
+              <stop offset="50%" stop-color="#C8602F"/>
+              <stop offset="100%" stop-color="#5C8A5F"/>
+            </linearGradient>
+          </defs>
+
+          <!-- outer ring -->
+          <circle cx="230" cy="250" r="158" fill="none" stroke="#26384A" stroke-width="2"/>
+
+          <!-- track (full arc, dim) -->
+          <path d="M104 348 A150 150 0 1 1 356 348" fill="none" stroke="#26384A" stroke-width="14" stroke-linecap="round"/>
+
+          <!-- animated fill arc, red -> amber -> green -->
+          <path class="gauge-arc-fill" d="M104 348 A150 150 0 1 1 356 348"
+                fill="none" stroke="url(#arcGradient)" stroke-width="14" stroke-linecap="round"/>
+
+          <!-- tick marks -->
+          <g stroke="#7E8B96" stroke-width="2">
+            <line x1="104" y1="348" x2="118" y2="338" />
+            <line x1="121" y1="183" x2="133" y2="194" />
+            <line class="tick-pulse" x1="230" y1="100" x2="230" y2="116" stroke="#5C8A5F" stroke-width="3"/>
+            <line x1="339" y1="183" x2="327" y2="194" />
+            <line class="tick-pulse" x1="356" y1="348" x2="342" y2="338" stroke="#5C8A5F" stroke-width="3"/>
+          </g>
+
+          <!-- labels -->
+          <text x="100" y="335" fill="#8b8f7f" font-family="Source Sans 3, sans-serif" font-size="11" text-anchor="middle">DUE</text>
+          <text x="360" y="335" fill="#cfe3d0" font-family="Source Sans 3, sans-serif" font-size="11" text-anchor="middle">GOOD</text>
+
+          <!-- needle -->
+          <g class="gauge-needle">
+            <line x1="230" y1="250" x2="230" y2="124" stroke="#F6F1E6" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="230" cy="250" r="11" fill="#F6F1E6"/>
+            <circle cx="230" cy="250" r="5" fill="#C8602F"/>
+          </g>
+
+          <!-- center readout -->
+          <text x="230" y="288" fill="#F6F1E6" font-family="Oswald, sans-serif" font-size="22" font-weight="600" text-anchor="middle" letter-spacing="1">RUNNING WELL</text>
+          <text x="230" y="306" fill="#8FA0AC" font-family="Source Sans 3, sans-serif" font-size="12.5" text-anchor="middle">After a visit to Alki Auto</text>
+
+          <!-- floating tool icons around the gauge -->
+          <g class="float-icon f1" transform="translate(48,80)" opacity="0.9">
+            <circle cx="0" cy="0" r="22" fill="#26384A"/>
+            <path d="M-7 7a10 10 0 1 1 14 -14L18 4l-5 5-11-2z" fill="none" stroke="#C8602F" stroke-width="2.2" stroke-linejoin="round" transform="translate(-3,-3) scale(0.55)"/>
+          </g>
+          <g class="float-icon f2" transform="translate(404,86)" opacity="0.9">
+            <circle cx="0" cy="0" r="22" fill="#26384A"/>
+            <path d="M-6-9h12l3 4-3 4h-12l-3-4z" fill="none" stroke="#C8602F" stroke-width="2.2" stroke-linejoin="round"/>
+            <line x1="0" y1="-1" x2="0" y2="10" stroke="#C8602F" stroke-width="2.2"/>
+          </g>
+          <g class="float-icon f3" transform="translate(40,300)" opacity="0.9">
+            <circle cx="0" cy="0" r="22" fill="#26384A"/>
+            <circle cx="0" cy="0" r="7" fill="none" stroke="#C8602F" stroke-width="2.2"/>
+            <line x1="0" y1="-10" x2="0" y2="-7" stroke="#C8602F" stroke-width="2.2"/>
+            <line x1="0" y1="7" x2="0" y2="10" stroke="#C8602F" stroke-width="2.2"/>
+            <line x1="-10" y1="0" x2="-7" y2="0" stroke="#C8602F" stroke-width="2.2"/>
+            <line x1="7" y1="0" x2="10" y2="0" stroke="#C8602F" stroke-width="2.2"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="trust-strip">
+    <div class="wrap">
+      <div class="trust-item">
+        <div class="num">107</div>
+        <div class="cap">Years in West Seattle</div>
+      </div>
+      <div class="trust-item">
+        <div class="num">ASE</div>
+        <div class="cap">Master Certified Techs</div>
+      </div>
+      <div class="trust-item">
+        <div class="num">5★</div>
+        <div class="cap">EnviroStars Rating</div>
+      </div>
+      <div class="trust-item">
+        <div class="num">4.8</div>
+        <div class="cap">Average Google Rating</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">What we do</p>
+        <h2>Full-service repair for every make.</h2>
+        <p>European, import, hybrid, or domestic — if it drives, we maintain it. Here's where most of our customers start.</p>
+      </div>
+
+      <div class="service-grid reveal">
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 19l1-6 2-7h8l2 7 1 6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8.5" cy="16" r="1.4"/><circle cx="15.5" cy="16" r="1.4"/><path d="M5 13h14" stroke-linecap="round"/></svg>
+          <h3>Oil Changes &amp; Maintenance</h3>
+          <p>Routine service that catches small issues before they become big repairs.</p>
+        </div>
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.4"/><path d="M12 4v3M12 17v3M4 12h3M17 12h3" stroke-linecap="round"/></svg>
+          <h3>Tires &amp; Brakes</h3>
+          <p>New tires, rotations, and brake service to keep you stopping safely.</p>
+        </div>
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9"/></svg>
+          <h3>Diagnostics</h3>
+          <p>Check-engine lights and drivability issues, diagnosed clearly — no guesswork.</p>
+        </div>
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 10h16M4 14h16" stroke-linecap="round"/><rect x="3" y="6" width="18" height="12" rx="2"/></svg>
+          <h3>Transmissions &amp; Clutches</h3>
+          <p>From fluid service to full rebuilds, handled by Master Techs.</p>
+        </div>
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 4v5c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V7l7-4z" stroke-linejoin="round"/></svg>
+          <h3>WA State Emissions</h3>
+          <p>State-certified emissions specialists, done while you wait.</p>
+        </div>
+        <div class="service-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 13l1.5-5A2 2 0 0 1 6.4 6.5h11.2A2 2 0 0 1 19.5 8L21 13v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-5z" stroke-linejoin="round"/><circle cx="7" cy="17" r="1.3"/><circle cx="17" cy="17" r="1.3"/></svg>
+          <h3>Fleet Maintenance</h3>
+          <p>Reliable upkeep for small business fleets, with shuttle service available.</p>
+        </div>
+      </div>
+
+      <p class="services-more reveal">Don't see what you need? <a href="tel:+12069358059">Give us a call</a> — this isn't an exhaustive list.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <div class="section-head reveal">
+          <p class="eyebrow">Our story</p>
+          <h2>From a wooden boardwalk to Avalon Way.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>Alki Auto Repair started life in <strong>1918</strong> as Turner Shell and Service, right across from Alki Beach — back when the road was still a boardwalk made of wood and sand.</p>
+          <p>After a few evolutions, including years as a Chevron station, the shop became Alki Auto Repair. It came under its <strong>current ownership in 1998</strong> and moved to its present home on Avalon Way in 2014.</p>
+          <p>Today, every technician on our floor is an <strong>ASE Master Certified</strong> technician, and we keep a state emissions specialist on hand — the same hands-on standard that's kept West Seattle driving for over a century.</p>
+        </div>
+      </div>
+
+      <div class="accolades reveal">
+        <div class="accolade">
+          <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.8 6.3L21 9l-4.8 4.4L17.4 21 12 17.6 6.6 21l1.2-7.6L3 9l6.2-.7L12 2z" stroke-linejoin="round"/></svg>
+          <div>
+            <h3>5-Star EnviroStars Rating</h3>
+            <p>One of the first shops in King County to earn this distinction, certified back in 1998.</p>
+          </div>
+        </div>
+        <div class="accolade">
+          <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2" stroke-linecap="round"/></svg>
+          <div>
+            <h3>Green Globe Award</h3>
+            <p>Recognized by King County for leadership in recycled-product use in the shop.</p>
+          </div>
+        </div>
+        <div class="accolade">
+          <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0112 6a5.5 5.5 0 019.5 6c-2.5 4.5-9.5 9-9.5 9z" stroke-linejoin="round"/></svg>
+          <div>
+            <h3>Family &amp; Locally Owned</h3>
+            <p>Still a small, independent shop — the kind of place that calls you back personally.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">From our customers</p>
+        <h2>What West Seattle is saying.</h2>
+      </div>
+
+      <div class="review-track reveal">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"They did a great job and were excellent when they worked on my Kia Stinger. I'm very happy with their service and happy to support a small family business."</p>
+          <div class="reviewer">
+            <span class="name">Brenda Tirado</span>
+            <span>Local Guide</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Honestly 10/10. Brought it in for a belt replacement and they replaced just what was needed at a fair price. When a follow-up issue came up, the owner reached out personally and took care of it."</p>
+          <div class="reviewer">
+            <span class="name">MrHanzoo</span>
+            <span>Google Review</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Had a great experience getting a new starter put in my Jeep. Called on short notice, yet they got it done within hours and had me back on the road. Recommend!"</p>
+          <div class="reviewer">
+            <span class="name">Viper Rottweiler</span>
+            <span>Local Guide</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <div class="cta-band">
+    <div class="wrap">
+      <h2>Need a hand with your car?</h2>
+      <p>Call ahead and we'll get you on the schedule — same-day appointments often available.</p>
+      <div class="hero-ctas" style="justify-content:center;">
+        <a href="tel:+12069358059" class="btn btn-primary">Call (206) 935-8059</a>
+        <a href="#contact" class="btn btn-ghost">Visit the Shop</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER / CONTACT -->
+<footer class="site" id="contact">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <span class="brand-text">Alki Auto Repair</span>
+      <p>Full-service, environment-friendly auto repair in West Seattle since 1918. European, import, hybrid, and domestic vehicles welcome.</p>
+    </div>
+
+    <div>
+      <h3>Visit Us</h3>
+      <ul class="footer-list">
+        <li>2938 SW Avalon Way</li>
+        <li>Seattle, WA 98126</li>
+        <li><a href="tel:+12069358059">(206) 935-8059</a></li>
+      </ul>
+      <div class="hours-row"><span>Mon–Fri</span><span>7am – 6pm</span></div>
+      <div class="hours-row"><span>Saturday</span><span>8am – 4pm</span></div>
+      <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+    </div>
+
+    <div>
+      <h3>Find Us</h3>
+      <div class="map-frame">
+        <iframe
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=2938+SW+Avalon+Way,+Seattle,+WA+98126&output=embed"
+          title="Map to Alki Auto Repair">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <span>© 2026 Alki Auto Repair. All rights reserved.</span>
+    <span>West Seattle, Washington</span>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const toggle = document.getElementById('menuToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', false);
+  }));
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('shown');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+
+</script>
+
+</body>
+</html>
